@@ -1,10 +1,12 @@
 import junit.framework.TestCase;
-
-public class helloTest extends TestCase{
+import org.junit.Assert;
+import org.junit.Test;
+public class helloTest {
     hello hel=new hello();
-
-   public void helloTestt(){
+   @Test
+   public void check(){
         String result = hel.concat("Hello ", "World");
-        assertEquals("Hello World", result);
+        Assert.assertEquals("Hello World", result);
     }
 }
+
