@@ -61,7 +61,7 @@
                 <url>http://localhost:8080/manager/text</url>
                 <server>TomcatServer</server>
                 <path>/hellosample</path>
-                <warFile>${project.build.directory}/Hello.war</warFile>
+                <warFile>${project.build.directory}/hello.war</warFile>
         </configuration>
 </plugin>
 
